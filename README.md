@@ -3,13 +3,13 @@ Real Estate Web Application
 
 # Technology
 # Back-end
-Django Framework
+Django Framework And
 Python 
 
 # Front-end 
-JS
-CSS
-HTML
+JS,
+CSS,
+HTML and 
 BOOTSTRAP
 # Database
 Postgres DMS
