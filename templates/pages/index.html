@@ -11,10 +11,9 @@
       <div class="home-search p-5">
         <div class="overlay p-5">
           <h1 class="display-4 mb-4">
-            Property Searching Just Got So Easy
+            Searching Just Got So Easy
           </h1>
-          <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae quas, asperiores eveniet vel nostrum magnam
-            voluptatum tempore! Consectetur, id commodi!</p>
+          <p class="lead">Find Best Home For Sales or Renting any where In Rwanda !</p>
           <div class="search">
             <form action="{% url 'search' %}">
               <!-- Form Row 1 -->
@@ -32,7 +31,7 @@
                 <div class="col-md-4 mb-3">
                   <label class="sr-only">State</label>
                   <select name="state" class="form-control">
-                    <option selected="true" disabled="disabled">State (All)</option>
+                    <option selected="true" disabled="disabled">City (All)</option>
                     {% for key,value in state_choices.items %}
                       <option value="{{ key }}">{{ value }}</option>
                     {% endfor %}
@@ -137,22 +136,19 @@
           <i class="fas fa-comment fa-4x mr-4"></i>
           <hr>
           <h3>Consulting Services</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, debitis nam! Repudiandae, provident iste consequatur
-            hic dignissimos ratione ea quae.</p>
+          <p>We Consult you about the real estate proejct and examine it .</p>
         </div>
         <div class="col-md-4">
           <i class="fas fa-home fa-4x mr-4"></i>
           <hr>
           <h3>Propery Management</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, debitis nam! Repudiandae, provident iste consequatur
-            hic dignissimos ratione ea quae.</p>
+          <p>we have best management sofware , just you need sit and relax we will take care of your property.</p>
         </div>
         <div class="col-md-4">
           <i class="fas fa-suitcase fa-4x mr-4"></i>
           <hr>
-          <h3>Renting & Selling</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, debitis nam! Repudiandae, provident iste consequatur
-            hic dignissimos ratione ea quae.</p>
+          <h3 href="{% url 'listings'%}">Renting & Selling</h3>
+          <p>You can buy or sell and rent  your property </p>
         </div>
       </div>
     </div>
