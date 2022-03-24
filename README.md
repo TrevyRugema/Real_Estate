@@ -12,4 +12,4 @@ CSS,
 HTML and 
 BOOTSTRAP
 # Database
-Postgres DMS
+Postgres DBMS
